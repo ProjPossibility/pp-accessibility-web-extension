@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<overlay id="siteannotator" 
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <statusbar id="status-bar">
+        <statusbarpanel id="my-panel" label="Hello, World"  />
+    </statusbar>
+
+    <toolbox id="navigator-toolbox">
+        <toolbar id="SiteAnnotatorToolbar" toolbarname="SiteAnnotator Toolbar">
+            <label value="SiteAnnotator Toolbar: "/>
+            <textbox id="GoogBarQuery" cols="1" size="50" />
+            <toolbarbutton id="SiteAnnotateButton"
+                    label="Validate" oncommand="alert('hhhhh');" />
+        </toolbar>
+    </toolbox>
+
+</overlay>

@@ -1,0 +1,2 @@
+content     siteannotator    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://siteannotator/content/siteannotator.xul
