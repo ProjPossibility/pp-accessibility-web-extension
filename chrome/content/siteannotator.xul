@@ -2,7 +2,7 @@
 <overlay id="siteannotator" 
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <statusbar id="status-bar">
-        <statusbarpanel id="my-panel" label="Hello, World"  />
+        <statusbarpanel id="my-panel" label="Hello, World" />
     </statusbar>
 
     <toolbox id="navigator-toolbox">
