@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <overlay id="siteannotator" 
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script language="javascript" src="validator.js"/>
     <statusbar id="status-bar">
-        <statusbarpanel id="my-panel" label="Hello, World" />
+        <statusbarpanel id="siteannotate-panel" label="Accessibility errors: " />
     </statusbar>
 
     <toolbox id="navigator-toolbox">
@@ -10,7 +11,7 @@
             <label value="SiteAnnotator Toolbar: "/>
             <textbox id="GoogBarQuery" cols="1" size="50" />
             <toolbarbutton id="SiteAnnotateButton"
-                    label="Validate" oncommand="alert('hhhhh');" />
+                    label="Validate" oncommand="validator.validate();" />
         </toolbar>
     </toolbox>
 
