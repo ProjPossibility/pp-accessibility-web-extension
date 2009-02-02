@@ -20,8 +20,8 @@ var validator_URLlistener = { // listens to changes in URL
 
 var validator = {
     curr_page_URL: null,
-    URL: "http://projectpossibility.org/projects/handicapannotate/dev/request.php",
-         //"http://169.232.161.6/dev/request.php",
+    URL: //"http://projectpossibility.org/projects/handicapannotate/dev/request.php",
+         "http://169.232.161.6/dev/request.php",
 
     init: function() {
         // Listen for webpage loads
