@@ -1,2 +1,3 @@
 content     siteannotator    chrome/content/
+skin        siteannotator classic/1.0   chrome/skin/
 overlay chrome://browser/content/browser.xul chrome://siteannotator/content/siteannotator.xul
